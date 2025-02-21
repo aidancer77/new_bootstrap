@@ -1,0 +1,306 @@
+body {
+    background-position: center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto condensed;
+}
+
+.body__opacity {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: papayawhip;
+    border-bottom: 1px solid seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.header__gen-logo {
+    padding-left: 25px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 4em;
+    padding-right: 22vw;
+}
+
+.header__btn-menu {
+    height: 40px;
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: papayawhip;
+}
+
+.header_btn-text {
+    font-weight: 700;
+    color: green;
+    text-transform: uppercase;
+    cursor: pointer;
+    row-gap: 10px;
+}
+
+.header__btn-menu:focus {
+    background-color: seagreen;
+    color: #fff;
+}
+
+.gpu_nav_volt {
+    border-right: 2px solid green;
+}
+
+.gpu_nav_volt_slide {
+    height: 90vh;
+    background-color: papayawhip;
+    border-right: 1px solid green;
+    background-color: violet;
+
+}
+
+.btn_n_v {
+    flex-direction: column;
+    height: 50%;
+    width: 20px;
+    background: #4ca06c;
+    border: none;
+}
+
+.btn-text {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    row-gap: 10px;
+}
+
+.main__display {
+    width: 100%;
+    display: flex;
+}
+
+.gpu_nav {
+    width: 12%;
+}
+
+.gpu_visibility {
+    list-style: none;
+    margin-top: 1px;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    border: none;
+    padding: 2.5% 0;
+    display: inline-flex;
+    width: 90%;
+}
+
+hr {
+    padding-left: 5px;
+    display: inline-flex;
+    justify-content: end;
+}
+
+.gpu_line_width {
+    width: 30%;
+}
+
+.gpu_line_color_black {
+    border-top: 5px solid black;
+}
+
+.gpu_line_color_yellow {
+    border-top: 5px solid yellow;
+}
+
+.gpu_line_color_blue {
+    border-top: 5px solid blue;
+}
+
+.gpu_line_color_green {
+    border-top: 5px solid green;
+}
+
+.gpu_line_color_red {
+    border-top: 5px solid red;
+}
+
+.gpu_line_color_purple {
+    border-top: 5px solid purple;
+}
+
+.hr {
+    border-top: 1.5px double green;
+    width: 80%;
+    display: flex;
+}
+
+.gpu_voltage {
+    width: 200px;
+}
+
+.gpu_voltage_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(6, 15vh);
+}
+
+.flex_center_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltage_value_box_frame {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 60%;
+    height: 70%;
+    background-color: rgb(151, 150, 150);
+    border: 2px solid rgb(95, 95, 95);
+}
+
+.voltage_value_box {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 80%;
+    height: 95%;
+    background-color: bisque;
+    border: 2px solid rgb(95, 95, 95);
+    border-bottom: none;
+}
+
+.voltage_value {
+    width: 100%;
+    background-color: darkgreen;
+    display: none;
+    justify-content: center;
+    align-items: end;
+}
+
+.value_4_1 {    
+    height: 50%;
+}
+
+.value_4_2 {    
+    height: 40%;
+}
+
+.value_4_3 {    
+    height: 60%;
+}
+
+.value_4_4 {    
+    height: 30%;
+}
+
+.value_4_5 {    
+    height: 45%;
+}
+
+.value_4_6 {    
+    height: 80%;
+}
+
+.value_4_7 {    
+    height: 35%;
+}
+
+.value_4_8 {    
+    height: 60%;
+}
+
+.value_4_9 {    
+    height: 40%;
+}
+
+.value_4_10 {    
+    height: 50%;
+}
+
+.value_4_11 {    
+    height: 75%;
+}
+
+.value_4_12 {    
+    height: 35%;
+}
+
+.value_5_1 {    
+    height: 50%;
+}
+
+.value_5_2 {    
+    height: 50%;
+}
+
+.value_5_3 {    
+    height: 50%;
+}
+
+.value_5_4 {    
+    height: 50%;
+}
+
+.value_5_5 {    
+    height: 50%;
+}
+
+.value_5_6 {    
+    height: 50%;
+}
+
+.gpu_graphics_background {
+    background-color: rgb(253, 246, 234);
+    width: 100%;
+    height: 90vh;
+}
+
+.gpu_graphics {
+    width: 80vw;
+    height: 75vh;
+    border: 1px solid gray;
+}
+
+.graph {
+    height: 33.333333%;
+    background-color: gainsboro;
+}
+
+.graph1 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.graph_visibility {
+    display: flex;
+}
+
+.graph_block {
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 14px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.svg" href="#" class="navbar-brand" alt="" height="70px">
+        </a>
+        <div>
+          <a class="btn btn-primary" href="#" role="button">Главная</a>
+          <a class="btn btn-primary" href="#" role="button">Графики</a>
+          <a class="btn btn-primary" href="#" role="button">Выгрузка</a>
+        </div>
+        <div>
+          <a class="btn btn-primary" href="#" role="button">Таблица</a>
+          <a class="btn btn-primary" href="#" role="button">Краткая сводка</a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <main class="banner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-1" style="background-color: aqua; height: 100vh; ">
+
+          <div class="gpu_nav_volt">
+            <button type="button" id="btn1" class="btn btn_n_v btn-text flex_center_center">N</button>
+            <button type="button" id="btn2" class="btn btn_n_v btn-text flex_center_center">V</button>
+          </div>
+                  
+          <div class="gpu_nav gpu_nav_volt_slide" id="gpu_nav">
+            <ul class="gpu_visibility">
+              <li><input type="checkbox" id="gpu_4_1" onclick="showOrHide4_1()">ГПУ 4.1
+                <hr class="gpu_line_color_black gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_2" onclick="showOrHide4_2()">ГПУ 4.2
+                <hr class="gpu_line_color_yellow gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_3" onclick="showOrHide4_3()">ГПУ 4.3
+                <hr class="gpu_line_color_blue gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_4" onclick="showOrHide4_4()">ГПУ 4.4
+                <hr class="gpu_line_color_green gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_5" onclick="showOrHide4_5()">ГПУ 4.5
+                <hr class="gpu_line_color_red gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_6" onclick="showOrHide4_6()">ГПУ 4.6
+                <hr class="gpu_line_color_purple gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_7" onclick="showOrHide4_7()">ГПУ 4.7
+                <hr class="gpu_line_color_black gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_8" onclick="showOrHide4_8()">ГПУ 4.8
+                <hr class="gpu_line_color_yellow gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_9" onclick="showOrHide4_9()">ГПУ 4.9
+                <hr class="gpu_line_color_blue gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_10" onclick="showOrHide4_10()">ГПУ 4.10
+                <hr class="gpu_line_color_green gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_11" onclick="showOrHide4_11()">ГПУ 4.11
+                <hr class="gpu_line_color_red gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_4_12" onclick="showOrHide4_12()">ГПУ 4.12
+                <hr class="gpu_line_color_purple gpu_line_width">
+              </li>
+            </ul>
+            <hr class="hr">
+            <ul class="gpu_visibility">
+              <li><input type="checkbox" id="gpu_5_1" onclick="showOrHide5_1()">ГПУ 5.1
+                <hr class="gpu_line_color_black gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_5_2" onclick="showOrHide5_2()">ГПУ 5.2
+                <hr class="gpu_line_color_yellow gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_5_3" onclick="showOrHide5_3()">ГПУ 5.3
+                <hr class="gpu_line_color_blue gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_5_4" onclick="showOrHide5_4()">ГПУ 5.4
+                <hr class="gpu_line_color_green gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_5_5" onclick="showOrHide5_5()">ГПУ 5.5
+                <hr class="gpu_line_color_red gpu_line_width">
+              </li>
+              <li><input type="checkbox" id="gpu_5_6" onclick="showOrHide5_6()">ГПУ 5.6
+                <hr class="gpu_line_color_purple gpu_line_width">
+              </li>
+            </ul>
+            <hr class="hr">
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <div class="row" style="background-color: aqua; height: 10vh;"></div> <!-- margin-top -->
+              <div class="row" style="background-color: gold; height: 25vh;">1</div>
+              <div class="row" style="background-color: red; height: 25vh;">2</div>
+              <div class="row" style="background-color: gold; height: 25vh;">3</div>
+              <div class="row" style="background-color: aqua; height: 15vh;"></div> <!-- margin-bottom -->
+            </div>
+          </div>
+        </div>
+        <div class="col-1" style="background-color: aqua;"></div>
+
+      </div>
+  </main>
+
+  <footer>
+
+  </footer>
+  <script src="./src/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

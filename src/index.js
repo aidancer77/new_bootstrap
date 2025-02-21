@@ -1,23 +1,19 @@
 
 // debugger
-const GpuNav = document.getElementById("gpu_nav")
-GpuNav.style.display = "none";
-const GpuVolt = document.getElementById("gpu_voltage")
-GpuVolt.style.display = "none";
+// const GpuNav = document.getElementById("gpu_nav")
+// GpuNav.style.display = "none";
+// const GpuVolt = document.getElementById("gpu_voltage")
+// GpuVolt.style.display = "none";
 
-btn1.onclick = function () {
-    
-    if (GpuNav.style.display = "none") {
-        GpuNav.style.display = "block";
-        GpuVolt.style.display = "none";
-    }
-    else GpuNav.style.display = "none"
-};
+// btn1.onclick = function () {    
+//         GpuNav.style.display = "block";
+//         GpuVolt.style.display = "none";
+// };
 
-btn2.onclick = function () {
-    GpuNav.style.display = "none";
-    GpuVolt.style.display = "block";
-};
+// btn2.onclick = function () {
+//     GpuNav.style.display = "none";
+//     GpuVolt.style.display = "block";
+// };
 
 
 //--------------------------------------------------------------------------------

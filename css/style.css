@@ -57,21 +57,8 @@ body {
     color: #fff;
 }
 
-.gpu_nav_volt {
-    border-right: 2px solid green;
-}
-
-.gpu_nav_volt_slide {
-    height: 90vh;
-    background-color: papayawhip;
-    border-right: 1px solid green;
-    background-color: violet;
-
-}
-
 .btn_n_v {
-    flex-direction: column;
-    height: 50%;
+    height: 50vh;
     width: 20px;
     background: #4ca06c;
     border: none;
@@ -88,10 +75,6 @@ body {
 .main__display {
     width: 100%;
     display: flex;
-}
-
-.gpu_nav {
-    width: 12%;
 }
 
 .gpu_visibility {

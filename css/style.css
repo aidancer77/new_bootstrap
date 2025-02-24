@@ -15,53 +15,11 @@ body {
     background-attachment: fixed;
 }
 
-.header {
-    background-color: papayawhip;
-    border-bottom: 1px solid seagreen;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    width: 100%;
-}
-
-.header__gen-logo {
-    padding-left: 25px;
-}
-
-.header__nav {
-    display: flex;
-    justify-content: center;
-    column-gap: 4em;
-    padding-right: 22vw;
-}
-
 .header__btn-menu {
     height: 40px;
     width: 200px;
     border: 2px solid green;
     border-radius: 10px;
-    background-color: papayawhip;
-}
-
-.header_btn-text {
-    font-weight: 700;
-    color: green;
-    text-transform: uppercase;
-    cursor: pointer;
-    row-gap: 10px;
-}
-
-.header__btn-menu:focus {
-    background-color: seagreen;
-    color: #fff;
-}
-
-.btn_n_v {
-    height: 50vh;
-    width: 20px;
-    background: #4ca06c;
-    border: none;
 }
 
 .btn-text {
@@ -77,27 +35,9 @@ body {
     display: flex;
 }
 
-.gpu_visibility {
-    list-style: none;
-    margin-top: 1px;
-    padding: 1rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 li {
-    border: none;
-    padding: 2.5% 0;
     display: inline-flex;
-    width: 90%;
-}
-
-hr {
-    padding-left: 5px;
-    display: inline-flex;
-    justify-content: end;
+    width: 20vw;
 }
 
 .gpu_line_width {
@@ -128,26 +68,10 @@ hr {
     border-top: 5px solid purple;
 }
 
-.hr {
-    border-top: 1.5px double green;
-    width: 80%;
-    display: flex;
-}
-
-.gpu_voltage {
-    width: 200px;
-}
-
 .gpu_voltage_grid {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(6, 15vh);
-}
-
-.flex_center_center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .voltage_value_box_frame {

@@ -19,9 +19,17 @@
 //--------------------------------------------------------------------------------
 //graphic's gpu data visibility
 
-const Gpu4_1 = document.getElementById("gpu_4_1")
 const GraphGpu4_1 = document.getElementById("graph_gpu_4_1")
+var myCollapse = new bootstrap.Collapse(GraphGpu4_1)
+
+const Gpu4_1 = document.getElementById("gpu_4_1")
+Gpu4_1.addEventListener('click', function() {
+    myCollapse.show();
+  });
 const VoltVal4_1 = document.getElementById("voltage_value_4_1")
+
+
+
 
 const Gpu4_2 = document.getElementById("gpu_4_2")
 const GraphGpu4_2 = document.getElementById("graph_gpu_4_2")
@@ -96,8 +104,8 @@ const GpuVoltVis5 = document.getElementById("gpu_voltage_grid_5")
 
 function showOrHide4_1() {
     if (Gpu4_1.checked) {
-        GraphGpu4_1.style.display = "flex";
-        VoltVal4_1.style.display = "flex";
+        // GraphGpu4_1.style.display = "flex";
+        // VoltVal4_1.style.display = "flex";
 
         Gpu5_1.checked = false;
         GraphGpu5_1.style.display = "none";

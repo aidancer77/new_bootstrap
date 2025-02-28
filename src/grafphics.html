@@ -53,13 +53,13 @@
                   <ul class="gpu_visibility">
 
                     <span>
-                      <li><input class="form-check-input" type="checkbox" id="gpu_4_1">
+                      <li><input href="#4_1" class="form-check-input" type="checkbox" data-toggle="collapse">
                         <label class="form-check-label click" for="flexCheckDefault">ГПУ 4.1</label>
                         <hr class="gpu_line_color_black gpu_line_width">
                       </li>
                     </span>
 
-                    <li><input type="checkbox" id="gpu_4_2" onclick="showOrHide4_2()">ГПУ 4.2
+                    <!-- <li><input type="checkbox" id="gpu_4_2" onclick="showOrHide4_2()">ГПУ 4.2
                       <hr class="gpu_line_color_yellow gpu_line_width">
                     </li>
                     <li><input type="checkbox" id="gpu_4_3" onclick="showOrHide4_3()">ГПУ 4.3
@@ -112,35 +112,46 @@
                     </li>
                     <li><input type="checkbox" id="gpu_5_6" onclick="showOrHide5_6()">ГПУ 5.6
                       <hr class="gpu_line_color_purple gpu_line_width">
-                    </li>
+                    </li> -->
                   </ul>
+
                 </div>
               </div>
-
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="row d-flex justify-content-center" style="background-color: aqua; height: 10vh;">
-            <div class="collapse" id="graph_gpu_4_1" style="height: 40px; width: 40px; background-color: gray;">4.1</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.2</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.3</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.4</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.5</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.6</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.7</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.8</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.9</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.10</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.11</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">4.12</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">5.1</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">5.2</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">5.3</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">5.4</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">5.5</div>
-            <div class="d-none" style="height: 40px; width: 40px; background-color: gray;">5.6</div>
+            <div id="4_1" class="main-container collapse in" style="height: 40px; width: 40px; background-color: gray;">
+              4.1</div>
+            <!-- <div style="height: 40px; width: 40px; background-color: gray;">4.2</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.3</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.4</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.5</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.6</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.7</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.8</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.9</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.10</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.11</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">4.12</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">5.1</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">5.2</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">5.3</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">5.4</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">5.5</div>
+            <div style="height: 40px; width: 40px; background-color: gray;">5.6</div> -->
+
+            <a href="#Foo" class="btn btn-default" data-toggle="collapse">Toggle Foo</a>
+            <a href="#Bar" class="btn btn-default" data-toggle="collapse">Toggle Bar</a>
+            <div id="Bar" class="main-container collapse in" style="background-color: blue; height: 100px; width: 100px;">
+              This div (#Bar) is shown by default and can toggle
+            </div>
+            <div id="Foo" class="main-container collapse">
+              This div (#Foo) is hidden by default
+            </div>
+
           </div> <!-- margin-top -->
           <div class="row" style="background-color: gold; height: 25vh;">1</div>
           <div class="row" style="background-color: red; height: 25vh;">2</div>

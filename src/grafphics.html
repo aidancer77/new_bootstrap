@@ -37,29 +37,16 @@
       <div class="row">
         <div class="col-1" style="background-color: aqua; height: 100vh; ">
           <div class="gpu_nav_volt">
+            <div class="form-check" id="gpu_nav">
+              <ul class="gpu_visibility">
 
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Включить прокрутку body</button>
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-              id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <li><input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#4_1"
+                    aria-expanded="false" aria-controls="4_1">
+                  <label class="form-check-label click" for="flexCheckDefault">ГПУ 4.1</label>
+                  <hr class="gpu_line_color_black gpu_line_width">
+                </li>
 
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                  aria-label="Закрыть"></button>
-              </div>
-              <div class="offcanvas-body">
-                <div class="form-check" id="gpu_nav">
-                  <ul class="gpu_visibility">
-
-                    <span>
-                      <li><input href="#4_1" class="form-check-input" type="checkbox" data-toggle="collapse">
-                        <label class="form-check-label click" for="flexCheckDefault">ГПУ 4.1</label>
-                        <hr class="gpu_line_color_black gpu_line_width">
-                      </li>
-                    </span>
-
-                    <!-- <li><input type="checkbox" id="gpu_4_2" onclick="showOrHide4_2()">ГПУ 4.2
+                <!-- <li><input type="checkbox" id="gpu_4_2" onclick="showOrHide4_2()">ГПУ 4.2
                       <hr class="gpu_line_color_yellow gpu_line_width">
                     </li>
                     <li><input type="checkbox" id="gpu_4_3" onclick="showOrHide4_3()">ГПУ 4.3
@@ -113,17 +100,16 @@
                     <li><input type="checkbox" id="gpu_5_6" onclick="showOrHide5_6()">ГПУ 5.6
                       <hr class="gpu_line_color_purple gpu_line_width">
                     </li> -->
-                  </ul>
+              </ul>
 
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="row d-flex justify-content-center" style="background-color: aqua; height: 10vh;">
-            <div id="4_1" class="main-container collapse in" style="height: 40px; width: 40px; background-color: gray;">
+            <div class="main-container collapse in" id="JAZcollapseExample1"
+              style="height: 40px; width: 40px; background-color: gray;">
               4.1</div>
             <!-- <div style="height: 40px; width: 40px; background-color: gray;">4.2</div>
             <div style="height: 40px; width: 40px; background-color: gray;">4.3</div>
@@ -143,19 +129,19 @@
             <div style="height: 40px; width: 40px; background-color: gray;">5.5</div>
             <div style="height: 40px; width: 40px; background-color: gray;">5.6</div> -->
 
-            <a href="#Foo" class="btn btn-default" data-toggle="collapse">Toggle Foo</a>
+            <!-- <a href="#Foo" class="btn btn-default" data-toggle="collapse">Toggle Foo</a>
             <a href="#Bar" class="btn btn-default" data-toggle="collapse">Toggle Bar</a>
             <div id="Bar" class="main-container collapse in" style="background-color: blue; height: 100px; width: 100px;">
               This div (#Bar) is shown by default and can toggle
             </div>
             <div id="Foo" class="main-container collapse">
               This div (#Foo) is hidden by default
-            </div>
+            </div> -->
 
           </div> <!-- margin-top -->
-          <div class="row" style="background-color: gold; height: 25vh;">1</div>
-          <div class="row" style="background-color: red; height: 25vh;">2</div>
-          <div class="row" style="background-color: gold; height: 25vh;">3</div>
+          <div class="row" style="background-color: gold; height: 25vh;"></div>
+          <div class="row" style="background-color: red; height: 25vh;"></div>
+          <div class="row" style="background-color: gold; height: 25vh;"></div>
           <div class="row" style="background-color: aqua; height: 15vh;"></div> <!-- margin-bottom -->
         </div>
         <div class="col-1" style="background-color: aqua;"></div>

@@ -20,18 +20,10 @@
 //graphic's gpu data visibility
 
 const GraphGpu4_1 = document.getElementById("graph_gpu_4_1")
-var myCollapse = new bootstrap.Collapse(GraphGpu4_1)
-
-const Gpu4_1 = document.getElementById("gpu_4_1")
-Gpu4_1.addEventListener('click', function() {
-    myCollapse.show();
-  });
+const Gpu4_1 = document.getElementById("gpu_4_1");
 const VoltVal4_1 = document.getElementById("voltage_value_4_1")
 
-
-
-
-const Gpu4_2 = document.getElementById("gpu_4_2")
+const Gpu4_2 = document.getElementById("gpu_4_2");
 const GraphGpu4_2 = document.getElementById("graph_gpu_4_2")
 const VoltVal4_2 = document.getElementById("voltage_value_4_2")
 

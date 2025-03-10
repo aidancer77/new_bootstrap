@@ -14,20 +14,25 @@
 <body>
   <header>
     <nav class="navbar bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./images/logo.svg" href="#" class="navbar-brand" alt="" height="70px">
-        </a>
-        <div>
-          <a class="btn btn-primary" href="#" role="button">Главная</a>
-          <a class="btn btn-primary" href="#" role="button">Графики</a>
-          <a class="btn btn-primary" href="#" role="button">Выгрузка</a>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="d-flex flex-row justify-content-end">
+            <div>
+              <button class="btn btn-primary" href="#" type="button">Главная</button>
+              <button class="btn btn-primary" href="#" type="button">Графики</button>
+              <button class="btn btn-primary" href="#" type="button">Выгрузка</button>
+            </div>
+            <div>
+              <a class="navbar-brand " href="#">
+                <img src="./images/logo.svg" href="#" class="navbar-brand" alt="" height="70px">
+              </a>
+            </div>
+            <div>
+              <button class="btn btn-primary" href="#" type="button">Таблица</button>
+              <button class="btn btn-primary" href="#" type="button">Краткая сводка</button>
+            </div>
+          </div>
         </div>
-        <div>
-          <a class="btn btn-primary" href="#" role="button">Таблица</a>
-          <a class="btn btn-primary" href="#" role="button">Краткая сводка</a>
-        </div>
-
       </div>
     </nav>
   </header>
@@ -36,39 +41,136 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-1">
+          <table class="table table-bordered">
+            <tbody>
+
+              <tr>
+                <td>
+                  <div>
+                    <button class="btn btn-success w-100 h-100 btn_fs" onclick="show4_1();">4.1</button>
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <button class="btn btn-success w-100 h-100 btn_fs" onclick="show4_2();">4.2</button>
+                  </div>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
         </div>
 
         <div class="col-10">
-          <div></div>
-          <div class="row border border-secondary" style="height: 25vh;"></div>
-          <div class="row border-secondary border-start border-end" style="height: 25vh;"></div>
-          <div class="row border border-secondary" style="height: 25vh;"></div>
-          <div></div> <!-- margin-bottom -->
+          <div>
+            <div class="row border border-secondary" style="height: 25vh;"></div>
+            <div class="row border-secondary border-start border-end" style="height: 25vh;"></div>
+            <div class="row border border-secondary" style="height: 25vh;"></div>
+          </div>
         </div>
 
         <div class="col-1">
-          <table class="table table-bordered border-secondary">
+          <table class="table" style="height: 75vh;">
             <tbody>
+
               <tr>
                 <td>
-                  <div class="height">
-                    <div class="pblank-3px border border-secondary h-100 w-100">
-                      <!-- <div class="h-50 w-100 bg-success align-bottom"></div> -->
-                       <div class="bs"> 
-
-                       </div>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_1" class=" volt_4_1_volume w-100 bg-success d-none"></div>
                     </div>
                   </div>
                 </td>
                 <td>
-                  <div class="height">
-                    <div class="pblank-3px border border-secondary h-100 w-100">
-                      <div class="h-50 w-100 bg-success"></div>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_2" class="h-50 w-100 bg-success d-none"></div>
                     </div>
                   </div>
                 </td>
               </tr>
 
+              <tr>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_1" class=" volt_4_1_volume w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_2" class="h-50 w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_1" class=" volt_4_1_volume w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_2" class="h-50 w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_1" class=" volt_4_1_volume w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_2" class="h-50 w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_1" class=" volt_4_1_volume w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_2" class="h-50 w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_1" class=" volt_4_1_volume w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="volt_volume">
+                    <div class="border border-secondary h-100 w-100 d-flex flex-column justify-content-end rounded-2">
+                      <div id="volt_4_2" class="h-50 w-100 bg-success d-none"></div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

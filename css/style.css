@@ -1,15 +1,7 @@
-.height {
-    height: 10vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.volt_volume {
+    height: 100%;
 }
 
-.bs {
-    background-color: aquamarine;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.volt_4_1_volume {
+    height: 75%;
 }

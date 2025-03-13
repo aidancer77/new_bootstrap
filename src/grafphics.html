@@ -14,22 +14,33 @@
 <body>
   <header>
     <nav class="navbar bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="row">
-          <div class="d-flex flex-row justify-content-end">
-            <div>
-              <button class="btn btn-primary" href="#" type="button">Главная</button>
-              <button class="btn btn-primary" href="#" type="button">Графики</button>
-              <button class="btn btn-primary" href="#" type="button">Выгрузка</button>
+          <div class="d-flex navbar_space">
+            <div class="d-flex justify-content-center align-items-center m-0 p-0">
+              <ul class="d-flex ">
+                <li>
+                  <button class="btn btn-success" href="#" type="button">Главная</button>
+                </li>
+                <li>
+                  <button class="btn btn-outline-success disabled" href="#" type="button"
+                    aria-disabled="true">Графики</button>
+                </li>
+                <li>
+                  <button class="btn btn-success" href="#" type="button">Выгрузка</button>
+                </li>
+              </ul>
             </div>
-            <div>
-              <a class="navbar-brand " href="#">
+
+            <div class="">
+              <a class="navbar-brand navbar_pm" href="#">
                 <img src="./images/logo.svg" href="#" class="navbar-brand" alt="" height="70px">
               </a>
             </div>
-            <div>
-              <button class="btn btn-primary" href="#" type="button">Таблица</button>
-              <button class="btn btn-primary" href="#" type="button">Краткая сводка</button>
+
+            <div class="d-flex align-items-center m-0 p-0">
+              <button class="btn btn-success" href="#" type="button">Таблица</button>
+              <button class="btn btn-success" href="#" type="button">Краткая сводка</button>
             </div>
           </div>
         </div>

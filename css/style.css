@@ -5,3 +5,17 @@
 .volt_4_1_volume {
     height: 75%;
 }
+
+.volt_4_2_volume {
+    height: 50%;
+}
+
+.navbar_space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar_pm {
+    margin: 10vw;
+}

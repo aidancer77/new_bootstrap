@@ -13,35 +13,45 @@
 
 <body>
   <header>
-    <nav class="navbar bg-light">
-      <div class="container-fluid d-flex justify-content-center align-items-center">
+    <nav class="bg-light">
+      <div class="container-fluid">
         <div class="row">
-          <div class="d-flex navbar_space">
-            <div class="d-flex justify-content-center align-items-center m-0 p-0">
-              <ul class="d-flex ">
-                <li>
+          <div class="d-flex justify-content-between">
+            <div class="col-1">123</div>
+            <div class="col-3 d-flex justify-content-start align-items-center m-0 p-0">
+              <ul class="navbar-nav d-flex flex-row justify-content-between">
+                <li class="nav-item mr-2">
                   <button class="btn btn-success" href="#" type="button">Главная</button>
                 </li>
-                <li>
-                  <button class="btn btn-outline-success disabled" href="#" type="button"
+                <li class="nav-item">
+                  <button class="btn btn-outline-success disabled mx-5" href="#" type="button"
                     aria-disabled="true">Графики</button>
                 </li>
-                <li>
+                <li class="nav-item">
                   <button class="btn btn-success" href="#" type="button">Выгрузка</button>
                 </li>
               </ul>
             </div>
 
-            <div class="">
-              <a class="navbar-brand navbar_pm" href="#">
-                <img src="./images/logo.svg" href="#" class="navbar-brand" alt="" height="70px">
+            <div class="col-4 d-flex justify-content-center align-items-center my-auto">
+              <a class="navbar-brand p-0" href="#">
+                <img src="./images/logo.svg" alt="АО КЖК" height="70px">
               </a>
             </div>
 
-            <div class="d-flex align-items-center m-0 p-0">
-              <button class="btn btn-success" href="#" type="button">Таблица</button>
-              <button class="btn btn-success" href="#" type="button">Краткая сводка</button>
+            <div class="col-3 d-flex justify-content-end align-items-center m-0 p-0">
+              <ul class="navbar-nav d-flex flex-row justify-content-between">
+                <li class="nav-item mx-5">
+                  <button class="btn btn-success" href="#" type="button">Таблица</button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-success" href="#" type="button">Краткая сводка</button>
+                </li>
+              </ul>
             </div>
+
+            <div class="col-1">123</div>
+
           </div>
         </div>
       </div>

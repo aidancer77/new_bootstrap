@@ -1,5 +1,6 @@
 .volt_volume {
-    height: 100%;
+    height: 70%;
+    width: 90%;
 }
 
 .volt_4_1_volume {
@@ -8,4 +9,76 @@
 
 .volt_4_2_volume {
     height: 50%;
+}
+
+.volt_4_3_volume {
+    height: 15%;
+}
+
+.volt_4_4_volume {
+    height: 90%;
+}
+
+.volt_4_5_volume {
+    height: 48%;
+}
+
+.volt_4_6_volume {
+    height: 30%;
+}
+
+.volt_4_7_volume {
+    height: 63%;
+}
+
+.volt_4_8_volume {
+    height: 57%;
+}
+
+.volt_4_9_volume {
+    height: 55%;
+}
+
+.volt_4_10_volume {
+    height: 10%;
+}
+
+.volt_4_11_volume {
+    height: 35%;
+}
+
+.volt_4_12_volume {
+    height: 80%;
+}
+
+.volt_5_1_volume {
+    height: 75%;
+}
+
+.volt_5_2_volume {
+    height: 50%;
+}
+
+.volt_5_3_volume {
+    height: 15%;
+}
+
+.volt_5_4_volume {
+    height: 90%;
+}
+
+.volt_5_5_volume {
+    height: 48%;
+}
+
+.volt_5_6_volume {
+    height: 30%;
+}
+
+.table-right {
+    height: 84vh;
+}
+
+.table-left {
+    height: 56vh;
 }

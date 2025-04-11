@@ -1,6 +1,20 @@
-.volt_volume {
+.scale {
     height: 70%;
-    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-fs {
+    font-size: 0.8rem;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-80 {
+    width: 80%;
 }
 
 .volt_4_1_volume {
@@ -75,10 +89,18 @@
     height: 30%;
 }
 
-.table-right {
-    height: 84vh;
+.table_top {
+    height: auto;
 }
 
-.table-left {
-    height: 56vh;
+.table-top-square {
+    padding: 5px;
+}
+
+.table-bottom {
+    height: 50vh;
+}
+
+.table-right {
+    height: 90vh;
 }

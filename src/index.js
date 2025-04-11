@@ -1,3 +1,5 @@
+//debugger
+
 const volt_4_1 = document.getElementById("volt_4_1")
 const volt_4_2 = document.getElementById("volt_4_2")
 const volt_4_3 = document.getElementById("volt_4_3")
@@ -37,6 +39,26 @@ const btn_5_3 = document.getElementById("btn_5_3")
 const btn_5_4 = document.getElementById("btn_5_4")
 const btn_5_5 = document.getElementById("btn_5_5")
 const btn_5_6 = document.getElementById("btn_5_6")
+
+const line4_1_top = document.getElementById("line4_1_top")
+const line4_2_top = document.getElementById("line4_2_top")
+const line4_3_top = document.getElementById("line4_3_top")
+const line4_4_top = document.getElementById("line4_4_top")
+const line4_5_top = document.getElementById("line4_5_top")
+const line4_6_top = document.getElementById("line4_6_top")
+const line5_1_top = document.getElementById("line5_1_top")
+const line5_2_top = document.getElementById("line5_2_top")
+const line5_3_top = document.getElementById("line5_3_top")
+
+const line4_1_bottom = document.getElementById("line4_1_bottom")
+const line4_2_bottom = document.getElementById("line4_2_bottom")
+const line4_3_bottom = document.getElementById("line4_3_bottom")
+const line4_4_bottom = document.getElementById("line4_4_bottom")
+const line4_5_bottom = document.getElementById("line4_5_bottom")
+const line4_6_bottom = document.getElementById("line4_6_bottom")
+const line5_1_bottom = document.getElementById("line5_1_bottom")
+const line5_2_bottom = document.getElementById("line5_2_bottom")
+const line5_3_bottom = document.getElementById("line5_3_bottom")
 
 const btn_active_4 = document.getElementById("btn_active_4")
 const btn_active_5 = document.getElementById("btn_active_5")
@@ -82,6 +104,26 @@ function show4() {
 
     btn_active_4.classList.add("disabled");
     btn_active_5.classList.remove("disabled");
+
+    line4_1_top.classList.remove("d-none");
+    line4_2_top.classList.remove("d-none");
+    line4_3_top.classList.remove("d-none");
+    line4_4_top.classList.remove("d-none");
+    line4_5_top.classList.remove("d-none");
+    line4_6_top.classList.remove("d-none");    
+    line5_1_top.classList.add("d-none");
+    line5_2_top.classList.add("d-none");
+    line5_3_top.classList.add("d-none");
+
+    line4_1_bottom.classList.remove("d-none");
+    line4_2_bottom.classList.remove("d-none");
+    line4_3_bottom.classList.remove("d-none");
+    line4_4_bottom.classList.remove("d-none");
+    line4_5_bottom.classList.remove("d-none");
+    line4_6_bottom.classList.remove("d-none");    
+    line5_1_bottom.classList.add("d-none");
+    line5_2_bottom.classList.add("d-none");
+    line5_3_bottom.classList.add("d-none");
 }
 function show5() {
     btn_4_1.classList.remove("d-block");
@@ -123,7 +165,27 @@ function show5() {
     btn_5_6.classList.remove("d-none");
     
     btn_active_5.classList.add("disabled");
-    btn_active_4.classList.remove("disabled");
+    btn_active_4.classList.remove("disabled");    
+
+    line4_1_top.classList.add("d-none");
+    line4_2_top.classList.add("d-none");
+    line4_3_top.classList.add("d-none");
+    line4_4_top.classList.add("d-none");
+    line4_5_top.classList.add("d-none");
+    line4_6_top.classList.add("d-none");    
+    line5_1_top.classList.remove("d-none");
+    line5_2_top.classList.remove("d-none");
+    line5_3_top.classList.remove("d-none");    
+
+    line4_1_bottom.classList.add("d-none");
+    line4_2_bottom.classList.add("d-none");
+    line4_3_bottom.classList.add("d-none");
+    line4_4_bottom.classList.add("d-none");
+    line4_5_bottom.classList.add("d-none");
+    line4_6_bottom.classList.add("d-none");    
+    line5_1_bottom.classList.remove("d-none");
+    line5_2_bottom.classList.remove("d-none");
+    line5_3_bottom.classList.remove("d-none");
 }
 
 function show4_1() {
